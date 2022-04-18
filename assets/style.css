@@ -1,0 +1,127 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+body {
+  width: 100%;
+  background-color: rgb(55, 106, 140);
+  background-image: url(.assets/img/background.png);
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0, 8%;
+  background-image: linear-gradient(
+    180deg,
+    #f4dc9b 0,
+    #e7c985 25%,
+    #d8b46c 50%,
+    #c99f54 75%,
+    #bd8d40 100%
+  );
+}
+header img {
+  width: 40%;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 1.4rem;
+}
+img#gif {
+  width: 30vw;
+}
+h1,
+h3 {
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+}
+button {
+  width: 40%;
+  height: 20%;
+  margin-bottom: 2rem;
+  border-color: aliceblue;
+  border-radius: 50px;
+  background-color: rgb(229 195 43);
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  border-bottom: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  cursor: pointer;
+}
+
+ @media (min-width: 1000px) and (max-width: 1280px) {
+  img#gif {
+    width: 60vh;
+  }
+}
+@media (min-width: 520px) and (max-width: 999px) {
+  img#gif {
+    width: 60vh;
+  }
+  header img {
+    width: 80vh;
+  }
+}
+@media (min-width: 387px) and (max-width: 519px) {
+  img#gif {
+    width: 50vh;
+  }
+  header img {
+    width: 60vh;
+  }
+}
+@media (min-width: 340px) and (max-width: 386px) {
+  img#gif {
+    width: 50vh;
+  }
+  header img {
+    width: 40vh;
+  }
+  section {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 300px) and (max-width: 339px) {
+  img#gif {
+    width: 50vh;
+  }
+  header img {
+    width: 40vh;
+  }
+}
+@media (min-width: 252px) and (max-width: 299px) {
+  img#gif {
+    width: 40vh;
+  }
+  header img {
+    width: 40vh;
+  }
+  section {
+    font-size: 0.8rem;
+  }
+  button {
+    width: 60%;
+  }
+}
+@media (min-width: 200px) and (max-width: 251px) {
+  img#gif {
+    width: 30vh;
+  }
+  header img {
+    width: 40vh;
+  }
+  section {
+    font-size: 0.8rem;
+  }
+  button {
+    width: 60%;
+  }
+}
